@@ -1,0 +1,119 @@
+{
+  "categorias": [
+    {
+      "nome": "Comédia",
+      "cor": "#ffd333",
+      "id": 3
+    },
+    {
+      "nome": "Terror",
+      "cor": "#c60c0c",
+      "id": 4
+    },
+    {
+      "nome": "Ficção Científica",
+      "cor": "#590d8c",
+      "id": 5
+    },
+    {
+      "nome": "Aventura",
+      "cor": "#1a417f",
+      "id": 6
+    },
+    {
+      "nome": "Drama",
+      "cor": "#38a829",
+      "id": 7
+    }
+  ],
+  "videos": [
+    {
+      "titulo": "The Good Place",
+      "link": "https://www.youtube.com/watch?v=4dMH_raemyg",
+      "categoria": "Comédia",
+      "categoriaId": 3,
+      "descricao": "Quatro pessoas lutam na vida após a morte para entender o que verdadeiramente é ser boa pessoa.",
+      "id": 1
+    },
+    {
+      "titulo": "The Walking Dead",
+      "link": "https://www.youtube.com/watch?v=6Z6ijZa3EXw",
+      "categoria": "Terror",
+      "categoriaId": 4,
+      "descricao": "Um Xerife acorda de um coma para dar-se conta que o mundo está em ruínas, e deve liderar um grupo de sobreviventes para se manter vivo.",
+      "id": 2
+    },
+    {
+      "titulo": "How I Met Your Mother",
+      "link": "https://www.youtube.com/watch?v=aJtVL2_fA5w",
+      "categoria": "Comédia",
+      "categoriaId": 3,
+      "descricao": "Um pai relata a seus filhos a jornada que ele e seus quatro melhores amigos levaram até ele conhecer sua mãe.",
+      "id": 3
+    },
+    {
+      "titulo": "Westworld",
+      "link": "https://www.youtube.com/watch?v=jBfOlQrko0c",
+      "categoria": "Ficção Científica",
+      "categoriaId": 5,
+      "descricao": "Situado na interseção do futuro próximo e do passado reimaginado, explore um mundo em que todo apetite humano pode ser desfrutado sem consequências.",
+      "id": 4
+    },
+    {
+      "titulo": "Doctor Who",
+      "link": "https://www.youtube.com/watch?v=GWoTf6cJVZ0",
+      "categoria": "Aventura",
+      "categoriaId": 6,
+      "descricao": "As aventuras no tempo e espaço do extraterrestre conhecido como Doctor e seus amigos da Terra.",
+      "id": 5
+    },
+    {
+      "titulo": "The 100",
+      "link": "https://www.youtube.com/watch?v=G-PpFU6tuek",
+      "categoria": "Ficção Científica",
+      "categoriaId": 5,
+      "descricao": "Depois de noventa e sete anos após uma guerra nuclear ter destruído a civilização, uma nave espacial que abriga os sobreviventes solitários da humanidade envia 100 delinquentes juvenis de volta à Terra, na esperança de possivelmente repovoar o planeta.",
+      "id": 6
+    },
+    {
+      "titulo": "Fear The Walking Dead",
+      "link": "https://www.youtube.com/watch?v=w-omQBtshvk",
+      "categoria": "Terror",
+      "categoriaId": 4,
+      "descricao": "Ambientado em Los Angeles, duas famílias devem se unir para sobreviver ao apocalipse zumbi.",
+      "id": 7
+    },
+    {
+      "titulo": "House of Cards",
+      "link": "https://www.youtube.com/watch?v=SvSkxBYuoQY",
+      "categoria": "Drama",
+      "categoriaId": 7,
+      "descricao": "Um congressista trabalha com sua esposa igualmente intrigante para se vingar das pessoas que o traíram.",
+      "id": 8
+    },
+    {
+      "titulo": "12 Monkeys",
+      "link": "https://www.youtube.com/watch?v=-XKv0NsYEb8",
+      "categoria": "Drama",
+      "categoriaId": 7,
+      "descricao": "Um viajante da época do futuro pós-apocalíptico aparece no presente com a missão de localizar e erradicar a peste mortal que destruirá a humanidade.",
+      "id": 9
+    },
+    {
+      "titulo": "His Dark Materials",
+      "link": "https://www.youtube.com/watch?v=AUptQbuSNyk",
+      "categoria": "Aventura",
+      "categoriaId": 6,
+      "descricao": "Duas crianças se embarcam em uma aventura mágica através de universos paralelos.",
+      "id": 10
+    },
+    {
+      "titulo": "Gossip Girl",
+      "link": "https://www.youtube.com/watch?v=eCg1RN-dyQk",
+      "categoria": "Drama",
+      "categoriaId": 7,
+      "descricao": "Adolescentes privilegiados da cidades de Nova Iorque não podem esconder seus segredos de uma blogueira que sempre soube tudo.",
+      "id": 11
+    }
+  ]
+}
