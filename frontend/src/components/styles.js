@@ -45,6 +45,7 @@ export const InputBox = styled.form`
 
 export const Input = styled.input`
     width: 100%;
+    color: gray;
     padding: 10px;
     margin-bottom: 20px;
 `;
@@ -69,6 +70,7 @@ export const SelectOption = styled.option`
 export const Text = styled.textarea`
     max-width: 100%;
     width: 100%;
+    color: gray;
     margin-bottom: 20px;
     padding: 10px;
 `;
