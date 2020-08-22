@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import {
     Input, InputBox, InputTitulo, Titulo,
     InputButton, EditBox, EditButton,
-    EditGroup, EditText, InputColor,
+    EditGroup, EditText, InputColor, EditTotal,
 } from '../../components/styles';
 import Menu from '../../components/menu';
 import Footer from '../../components/footer';
@@ -73,7 +73,7 @@ export default class Categoria extends React.Component {
         return (
             <div>
                 <Menu botao="Novo Vídeo" url="/cadastro-video" />
-                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+                <EditTotal>
                     <EditBox>
                         <Titulo>Edição de Gênero</Titulo>
                         {this.state.data
@@ -106,7 +106,7 @@ export default class Categoria extends React.Component {
                             </Link>
                         </div>
                     </InputBox>
-                </div>
+                </EditTotal>
                 <Footer />
             </div>
         );

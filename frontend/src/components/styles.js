@@ -30,7 +30,7 @@ export const Titulo = styled.h1`
     margin-bottom: 10px;
 
     @media(max-width: 800px) {
-        font-size:40px;
+        font-size:35px;
     }
 `;
 
@@ -41,6 +41,10 @@ export const InputBox = styled.form`
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+
+    @media(max-width: 800px) {
+        width: 80vw;
+    }
 `;
 
 export const Input = styled.input`
@@ -48,6 +52,10 @@ export const Input = styled.input`
     color: gray;
     padding: 10px;
     margin-bottom: 20px;
+
+    @media(max-width: 800px) {
+        font-size: 18px;
+    }
 `;
 
 export const InputTitulo = styled.h3`
@@ -61,6 +69,10 @@ export const InputSelect = styled.select`
     color: gray;
     padding: 10px;
     margin-bottom: 20px;
+
+    @media(max-width: 800px) {
+        font-size: 18px;
+    }
 `;
 
 export const SelectOption = styled.option`
@@ -73,6 +85,10 @@ export const Text = styled.textarea`
     color: gray;
     margin-bottom: 20px;
     padding: 10px;
+
+    @media(max-width: 800px) {
+        font-size: 18px;
+    }
 `;
 
 export const Paragrafo = styled.p`
@@ -91,6 +107,11 @@ export const MenuHeader = styled.nav`
     height: 80px;
     border-bottom: 3px solid var(--azul);
 
+    
+    @media(max-width: 800px) {
+        justify-content: center;
+    }
+
 `;
 
 export const ButtonHeader = styled(Button)`
@@ -100,13 +121,15 @@ export const ButtonHeader = styled(Button)`
         position: fixed;
         background-color: var(--azul);
         text-align: center;
-        font-size:40px;
+        font-size:30px;
         bottom: 0;
         left: 0;
         right: 0;
         margin-right: 0;
+        padding: 15px;
         border: none;
         border-radius: 0px;
+        z-index: 100;
     }
 `;
 
@@ -114,10 +137,6 @@ export const LogoHeader = styled(Logo)`
     width: 150px;
     margin-left: 5%;
 
-    @media(max-width: 800px) {
-        margin-left: auto;
-        margin-right: auto;
-    }
 `;
 
 // Banner
@@ -135,6 +154,8 @@ export const BannerTotal = styled.div`
 
     @media(max-width: 800px) {
         flex-direction: column;
+        height: 80vh;
+        /* margin-bottom: 30%; */
     }
 `;
 
@@ -148,7 +169,8 @@ export const BannerBox = styled.div`
     padding: 10px;
 
     @media(max-width: 800px) {
-        width: 80vw;
+        width: 90vw;
+        background-color: rgb(0,0,0,.5);
     }
 `;
 
@@ -156,7 +178,7 @@ export const BannerTexto = styled(Paragrafo)`
     text-align: center;
 
     @media(max-width: 800px) {
-        font-size:25px;
+        font-size:22px;
     }
 `;
 
@@ -176,6 +198,10 @@ export const ListTexto = styled(Paragrafo)`
     text-align: center;
     font-weight:normal;
     padding-top: 5px;
+
+    @media(max-width: 800px) {
+        font-size: 20px;
+    }
 `;
 
 export const Descrip = styled.div`
@@ -215,10 +241,22 @@ export const FooterBox = styled.div`
     height: 80px;
     margin-top:50px;
     border-top: 3px solid var(--azul);
+    bottom: 0;
+
+    @media(max-width: 800px) {
+        margin-top: 15vh;
+        bottom: 10vh;
+    }
 `;
 
 export const FooterTexto = styled(Paragrafo)`
     color: white;
+
+    @media(max-width: 800px) {
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+    }
 `;
 
 // Register Video
@@ -235,6 +273,11 @@ export const InputButton = styled.button`
     &:hover {
         opacity: .8;
     }
+
+    @media(max-width: 800px) {
+        font-size: 18px;
+        width: auto;
+    }
 `;
 
 export const InputColor = styled(Input)`
@@ -245,6 +288,16 @@ export const InputColor = styled(Input)`
 `;
 
 // Register Genero
+export const EditTotal = styled.div`
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+
+    @media(max-width: 800px) {
+        flex-direction: column;
+    }
+`;
+
 export const EditBox = styled.div`
     color: white;
     width: 40vw;
@@ -252,6 +305,11 @@ export const EditBox = styled.div`
     margin-right: auto;
     margin-top: 50px;
     border-right: 3px solid var(--azul);
+
+    @media(max-width: 800px) {
+        border: none;
+        width: 80vw;
+    }
 `;
 
 export const EditButton = styled(Button)`
@@ -261,6 +319,10 @@ export const EditButton = styled(Button)`
     min-width: 60px;
     border: none;
     margin-right: 5px;
+
+    @media(max-width: 800px) {
+        font-size: 15px;
+    }
 
 `;
 
@@ -272,6 +334,7 @@ export const EditGroup = styled.div`
     padding: 5px;
     padding-right: 0;
     border: 2px solid var(--azul);
+
 `;
 
 export const EditText = styled(Paragrafo)`
@@ -279,4 +342,8 @@ export const EditText = styled(Paragrafo)`
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+
+    @media(max-width: 800px) {
+        font-size: 20px;
+    }
 `;
