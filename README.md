@@ -31,4 +31,6 @@
 <img src="https://github.com/valsoares/Alura-1/blob/master/prints/editar.png" alt="home" width="700">
 
 ## :scroll: Créditos
-1. O curso foi ministrado por 3 integrantes da Alura
+1. O curso foi ministrado por 3 integrantes da Alura: Ju Negreiros, Mario Souto e Marco Bruno
+2. Imagem do Banner
+> <a href='https://br.freepik.com/fotos/maos'>Mãos foto criado por freepik - br.freepik.com</a>
